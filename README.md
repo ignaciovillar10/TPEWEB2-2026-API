@@ -4,7 +4,7 @@
 # Los items se pueden sortear por fecha (fecha_fundacion).
 
 # POST:
-api_sistemaliga/api/historia_equipo 
+sistemaliga_tpe/api_sistemaliga/api/historia_equipo 
 Respuesta: Se inserto la historia 200 ok
 
 
