@@ -1,4 +1,4 @@
-# TPEWEB2-2026-API}
+# TPEWEB2-2026-API
 # ENDPOINTS SISTEMALIGA
 
 # Los items se pueden sortear por fecha (fecha_fundacion).
@@ -20,12 +20,16 @@ Ejemplo de uso:
 
 
 # GET:
+obtener todas las historias 
+sistemaliga_tpe/api_sistemaliga/api/historia_equipo
 Sin sort:
-api_sistemaliga/api/historia_equipo 
+
+sistemaliga_tpe/api_sistemaliga/api/historia_equipo 
 Respuesta: 200 ok
 
 Con sort:
-api_sistemaliga/api/historia_equipo?sortBy=fecha_fundacion 
+
+sistemaliga_tpe/api_sistemaliga/api/historia_equipo?sortBy=fecha_fundacion 
 
 Ejemplo:
 
@@ -57,7 +61,8 @@ descendente
 
 
 # GET BY ID:
-api_sistemaliga/api/historia_equipo/id: 
+
+sistemaliga_tpe/api_sistemaliga/api/historia_equipo/id: 
 Respuesta: 200 ok
 Ejemplo:
 Get de equipo 2
@@ -70,11 +75,11 @@ Get de equipo 2
         "fecha_fundacion": "2026-05-03"
 },
 
-# UPDATE:
-api_sistemaliga/api/historia_equipo/id: 
+# PUT:
+sistemaliga_tpe/api_sistemaliga/api/historia_equipo/id: 
 Respuesta: 200 ok
 Ejemplo:
-UPDATE de equipo 2
+UPDATE o PUT de equipo 2
 
 {
         "id_historia": 2,
